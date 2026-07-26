@@ -1,13 +1,13 @@
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/pointing.h>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <input/processors/runtime-input-processor.dtsi>
 #include <behaviors/runtime-sensor-rotate.dtsi>
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #undef ZMK_POINTING_DEFAULT_SCRL_VAL
+
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 80
 
 / {
@@ -118,7 +118,10 @@
             label = "MT_TO0_HENKAN";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <400>;）
+            tapping-term-ms = <400>;
+
+            ）
+
             flavor = "tap-preferred";    // 迷った時はタップを優先（誤爆防止）
             bindings = <&kp>, <&to0_henkan>;
         };
@@ -251,11 +254,7 @@
         to0_henkan: to0_henkan {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-
-            bindings = <
-                &to 0
-                &kp INT_HEN
-            >;
+            bindings = <&to 0 &kp INT_HEN>;
         };
     };
 
@@ -282,7 +281,7 @@
             bindings = <
 &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp RCTRL         &kp RIGHT_ALT     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &lt_mouse 2 MCLK  &lt_mouse 3 RCLK  &trans  &kp RIGHT_SHIFT
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &lt_mouse 2 MCLK  &lt_mouse 3 RCLK  &trans  &mt_to0_henkan RIGHT_SHIFT 0
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans            &trans            &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans            &trans
             >;
