@@ -25,7 +25,7 @@ config LITOM_AUTO_MOUSE_LAYER_SCROLL
 
 config LITOM_AUTO_MOUSE_LAYER_TIMEOUT_MS
     int "Auto mouse layer timeout in milliseconds"
-    default 400
+    default 1000000
 
 module = LITOM_AUTO_MOUSE_LAYER
 module-str = litom_auto_mouse_layer
