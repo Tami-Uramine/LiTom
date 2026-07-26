@@ -5,6 +5,17 @@
 #include <physical_layouts.dtsi>
 #include "LiTom.dtsi"
 
+&zip_temp_layer {
+    excluded-positions = <
+        10 // ctrl
+        11 // alt
+        21 // J
+        22 // K
+        23 // l
+        25 // shift
+    >;
+};
+
 / {
     chosen {
         zmk,kscan = &kscan0;
