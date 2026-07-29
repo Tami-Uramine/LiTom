@@ -546,8 +546,6 @@
 &to0_bslash                    &to0_semicolon  &to0_quote  &lt_to0_grave 7 0  &to0_lbracket  &to0_rbracket  &lt_to0_space 5 0  &lt_to0_enter 6 0  &to0_tab           &to0_gui
             >;
 
-            >;
-
             sensor-bindings = <
                 &tab_slide
                 &scroll_up_down
