@@ -123,7 +123,7 @@
             bindings = <&kp>, <&to0_henkan>;
         };
 
-        mt_to0_henkan: mt_to0_muhenkan {
+        mt_to0_muhenkan: mt_to0_muhenkan {
             compatible = "zmk,behavior-hold-tap";
             label = "MT_TO0_MUHENKAN";
             #binding-cells = <2>;
