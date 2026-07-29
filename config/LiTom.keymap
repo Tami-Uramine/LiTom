@@ -241,7 +241,7 @@
             bindings = <&to 0 &kp INT_HENKAN>;
         };
 
-        to0_henkan: to0_muhenkan {
+        to0_muhenkan: to0_muhenkan {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to 0 &kp INT_MUHENKAN>;
@@ -361,6 +361,13 @@ to0_h: to0_h {
     bindings = <&to 0 &kp H>;
 };
 
+to0_minus: to0_minus {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&to 0 &kp MINUS>;
+};
+
+
 to0_z: to0_z {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
@@ -439,7 +446,7 @@ to0_quote: to0_quote {
     bindings = <&to 0 &kp SINGLE_QUOTE>;
 };
 
-to0_quote: to0_grave {
+to0_grave: to0_grave {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
     bindings = <&to 0 &kp GRAVE>;
