@@ -213,13 +213,13 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-44 " transform="translate(618 400) rotate(0 -588 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="36">5 SPC</text>
-<text class="hold" x="42" y="53">lt_middle</text>
+<text class="tap" x="42" y="36">SPC</text>
+<text class="hold" x="42" y="53">LT 5</text>
 </g>
 <g class="key keypos-45 " transform="translate(702 400) rotate(0 -672 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="36">6 ENTER</text>
-<text class="hold" x="42" y="53">lt_middle</text>
+<text class="tap" x="42" y="36">ENTER</text>
+<text class="hold" x="42" y="53">LT 6</text>
 </g>
 <g class="key keypos-46 " transform="translate(954 400) rotate(0 -924 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
