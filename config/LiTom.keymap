@@ -31,6 +31,15 @@
             tap-ms = <20>;
         };
 
+        arrows_left_right: behavior_sensor_rotate_tab_slide {
+            compatible = "zmk,behavior-runtime-sensor-rotate";
+            label = "ENCODER_ARROWS_LEFT_RIGHT";
+            #sensor-binding-cells = <0>;
+            cw-binding = <&kp RIGHT_ARROW>;
+            ccw-binding = <&kp LEFT_ARROW>;
+            tap-ms = <20>;
+        };
+
         sl_mouse: sticky_layer_for_mouse {
             compatible = "zmk,behavior-sticky-key";
             #binding-cells = <1>;
