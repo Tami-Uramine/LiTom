@@ -4,7 +4,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
 #undef ZMK_POINTING_DEFAULT_SCRL_VAL
@@ -640,7 +639,7 @@
         Bluetooth {
             bindings = <
 &studio_unlock  &trans
-&out OUT_TOG    &bt BT_SEL 0       &bt BT_SEL 1     &bt BT_SEL 2          &bt BT_SEL 3          &bt BT_SEL 4           &trans  &trans  &trans  &trans  &trans  &trans
+&bt BT_CLR      &bt BT_SEL 0       &bt BT_SEL 1     &bt BT_SEL 2          &bt BT_SEL 3          &bt BT_SEL 4           &trans  &trans  &trans  &trans  &trans  &trans
 &kp K_MUTE      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_AUTO  &trans  &trans  &trans  &trans  &trans  &trans
 &trans          &trans             &trans           &trans                &trans                &trans                 &trans  &trans  &trans  &trans  &trans  &trans
 &trans          &trans             &trans           &trans                &trans                &trans                 &trans  &trans  &trans  &trans
