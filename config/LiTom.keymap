@@ -254,7 +254,6 @@
             bindings =
                 <&macro_press>,
                 <&kp LCTRL>,
-                <&macro_tap>,
                 <&msc SCRL_UP>,
                 <&macro_release>,
                 <&kp LCTRL>;
@@ -268,7 +267,6 @@
             bindings =
                 <&macro_press>,
                 <&kp LCTRL>,
-                <&macro_tap>,
                 <&msc SCRL_DOWN>,
                 <&macro_release>,
                 <&kp LCTRL>;
