@@ -541,7 +541,7 @@
             >;
 
             sensor-bindings = <
-                &tab_slide
+                &arrows_left_right
                 &scroll_up_down
                 &scroll_up_down
             >;
@@ -557,7 +557,7 @@
             >;
 
             sensor-bindings = <
-                &tab_slide
+                &arrows_left_right
                 &scroll_up_down
                 &scroll_up_down
             >;
@@ -573,7 +573,7 @@
             >;
 
             sensor-bindings = <
-                &tab_slide
+                &arrows_left_right
                 &scroll_up_down
                 &scroll_up_down
             >;
@@ -599,7 +599,7 @@
             >;
 
             sensor-bindings = <
-                &tab_slide
+                &arrows_left_right
                 &scroll_up_down
                 &scroll_up_down
             >;
@@ -615,7 +615,7 @@
             >;
 
             sensor-bindings = <
-                &tab_slide
+                &arrows_left_right
                 &scroll_up_down
                 &scroll_up_down
             >;
@@ -631,7 +631,7 @@
             >;
 
             sensor-bindings = <
-                &tab_slide
+                &arrows_left_right
                 &scroll_up_down
                 &scroll_up_down
             >;
@@ -647,7 +647,7 @@
             >;
 
             sensor-bindings = <
-                &tab_slide
+                &arrows_left_right
                 &scroll_up_down
                 &scroll_up_down
             >;
