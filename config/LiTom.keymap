@@ -31,7 +31,7 @@
             tap-ms = <20>;
         };
 
-        arrows_left_right: behavior_sensor_rotate_tab_slide {
+        arrows_left_right: behavior_sensor_rotate_arrows_left_right {
             compatible = "zmk,behavior-runtime-sensor-rotate";
             label = "ENCODER_ARROWS_LEFT_RIGHT";
             #sensor-binding-cells = <0>;
