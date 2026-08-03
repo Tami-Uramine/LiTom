@@ -254,10 +254,10 @@
             bindings =
                 <&macro_press>,
                 <&kp LCTRL>,
-                <&macro_press>, 
+                <&macro_press>,
                 <&msc SCRL_UP>,
-                <&macro_pause_for_release>, 
-                <&macro_release>, 
+                <&macro_pause_for_release>,
+                <&macro_release>,
                 <&msc SCRL_UP>,
                 <&macro_release>,
                 <&kp LCTRL>;
@@ -271,10 +271,10 @@
             bindings =
                 <&macro_press>,
                 <&kp LCTRL>,
-                <&macro_press>, 
+                <&macro_press>,
                 <&msc SCRL_DOWN>,
-                <&macro_pause_for_release>, 
-                <&macro_release>, 
+                <&macro_pause_for_release>,
+                <&macro_release>,
                 <&msc SCRL_DOWN>,
                 <&macro_release>,
                 <&kp LCTRL>;
@@ -571,9 +571,9 @@
         SCROLL {
             bindings = <
 &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans         &trans  &trans      &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans       &zoom_up       &trans  &zoom_down  &kp LC(N0)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans         &trans  &trans      &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans         &trans  &trans     &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans         &trans  &kp RCTRL  &kp LC(N0)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans         &trans  &trans     &trans      &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &kp PAGE_UP  &kp PAGE_DOWN  &trans  &trans
             >;
 
