@@ -1491,9 +1491,9 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="42">TRANS</text>
 </g>
-<g class="key keypos-14 " transform="translate(30 232) rotate(0 0 -168)">
+<g class="key keypos-14 transparent" transform="translate(30 232) rotate(0 0 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">K_MUTE</text>
+<text class="tap" x="42" y="42">TRANS</text>
 </g>
 <g class="key keypos-15 " transform="translate(114 232) rotate(0 -84 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -1511,9 +1511,9 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="42">C_BRIGHTNESS_INC</text>
 </g>
-<g class="key keypos-19 " transform="translate(450 232) rotate(0 -420 -168)">
+<g class="key keypos-19 transparent" transform="translate(450 232) rotate(0 -420 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">C_BRIGHTNESS_AUTO</text>
+<text class="tap" x="42" y="42">TRANS</text>
 </g>
 <g class="key keypos-20 transparent" transform="translate(618 232) rotate(0 -588 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
