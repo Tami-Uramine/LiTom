@@ -558,7 +558,7 @@
         default_layer {
             bindings = <
 &kp ESCAPE                   &kp DELETE
-&kp TAB                      &kp Q          &kp W             &kp E               &kp R               &kp T                &kp Y        &kp U        &mt_middle RCTRL I  &mt_middle RIGHT_ALT O  &kp P               &kp BSPC
+&kp TAB                      &kp Q          &mt_middle LEFT_ALT W  &mt_middle LCTRL E               &kp R               &kp T                &kp Y        &kp U        &mt_middle RCTRL I  &mt_middle RIGHT_ALT O  &kp P               &kp BSPC
 &mt LSHIFT INT_HENKAN        &kp A          &kp S             &kp D               &kp F               &kp G                &kp H        &kp J        &lt_middle 2 K      &lt_middle 3 L          &lt_middle 4 MINUS  &mt RIGHT_SHIFT INT_HENKAN
 &mt LEFT_SHIFT INT_MUHENKAN  &kp Z          &kp X             &kp C               &kp V               &kp B                &kp N        &kp M        &kp COMMA           &kp DOT                 &kp FSLH            &mt RIGHT_SHIFT INT_MUHENKAN
 &kp BSLH                     &kp SEMICOLON  &kp SINGLE_QUOTE  &lt_middle 9 GRAVE  &lt 8 LEFT_BRACKET  &lt 7 RIGHT_BRACKET  &lt 5 SPACE  &lt 6 ENTER  &kp TAB             &kp LEFT_GUI
@@ -605,7 +605,7 @@
             bindings = <
 &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(H)           &kp LC(F)           &kp LC(A)  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LC(X)           &kp LC(C)           &kp LC(V)  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LC(X)           &kp LC(C)           &kp LC(V)  &trans  &kp RA(G)  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &kp LA(DOWN_ARROW)  &kp LA(LEFT_ARROW)  &kp LG(V)  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(Y)           &kp LC(Z)           &trans     &trans
             >;
