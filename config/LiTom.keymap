@@ -206,6 +206,24 @@
             tapping-term-ms = <200>;
             bindings = <&mo>, <&to0_grave>;
         };
+
+        lt_to0_lbracket: lt_to0_lbracket {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LT_TO0_LBRACKET";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            bindings = <&mo>, <&to0_lbracket>;
+        };
+
+        lt_to0_rbracket: lt_to0_rbracket {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LT_TO0_RBRACKET";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            bindings = <&mo>, <&to0_rbracket>;
+        };
     };
 
     macros {
