@@ -418,11 +418,13 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-42 " transform="translate(366 400) rotate(0 -336 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">to0_lbracket</text>
+<text class="tap" x="42" y="36">8 0</text>
+<text class="hold" x="42" y="53">lt_to0_lbracket</text>
 </g>
 <g class="key keypos-43 " transform="translate(450 400) rotate(0 -420 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">to0_rbracket</text>
+<text class="tap" x="42" y="36">7 0</text>
+<text class="hold" x="42" y="53">lt_to0_rbracket</text>
 </g>
 <g class="key keypos-44 " transform="translate(618 400) rotate(0 -588 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
