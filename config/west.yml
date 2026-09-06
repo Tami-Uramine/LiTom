@@ -47,7 +47,8 @@ manifest:
       remote: mctechnology17
       revision: main
     - name: zmk-tom-oled
-      remote: pukuhei
+      url: https://github.com/Tami-Uramine/zmk-tom-oled
       revision: main
+      import: app/west.yml
   self:
     path: config
