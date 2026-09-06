@@ -49,6 +49,5 @@ manifest:
     - name: zmk-tom-oled
       url: https://github.com/Tami-Uramine/zmk-tom-oled
       revision: main
-      import: app/west.yml
   self:
     path: config
