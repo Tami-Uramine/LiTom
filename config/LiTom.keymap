@@ -565,11 +565,11 @@
 
         default_layer {
             bindings = <
-&kp SINGLE_QUOTE             &kp DELETE
-&kp SEMICOLON                &kp Q             &mt_middle LEFT_ALT W  &mt_middle LCTRL E      &kp R               &kp T                &kp Y        &kp U        &mt_middle RCTRL I  &mt_middle RIGHT_ALT O  &kp P               &kp BSPC
-&mt LSHIFT LS(NUMBER_1)      &kp A             &kp S                  &kp D                   &kp F               &kp G                &kp H        &kp J        &lt_middle 2 K      &lt_middle 3 L          &lt_middle 4 MINUS  &mt RIGHT_SHIFT INT_HENKAN
-&mt LEFT_SHIFT LS(NUMBER_2)  &kp Z             &kp X                  &kp C                   &kp V               &kp B                &kp N        &kp M        &kp COMMA           &kp DOT                 &kp FSLH            &mt RIGHT_SHIFT INT_MUHENKAN
-&kp LS(NUMBER_5)             &kp LS(NUMBER_6)  &kp LS(NUMBER_7)       &lt_middle 9 LS(GRAVE)  &lt 8 LEFT_BRACKET  &lt 7 RIGHT_BRACKET  &lt 5 SPACE  &lt 6 ENTER  &kp TAB             &kp LEFT_GUI
+&kp ESCAPE                          &kp DELETE
+&kp LS(NUMBER_1)                    &kp Q          &mt_middle LEFT_ALT W  &mt_middle LCTRL E      &kp R               &kp T                &kp Y        &kp U        &mt_middle RCTRL I  &mt_middle RIGHT_ALT O  &kp P               &kp BSPC
+&mt_middle LSHIFT LS(NUMBER_2)      &kp A          &kp S                  &kp D                   &kp F               &kp G                &kp H        &kp J        &lt_middle 2 K      &lt_middle 3 L          &lt_middle 4 MINUS  &mt_middle RIGHT_SHIFT INT_HENKAN
+&mt_middle LEFT_SHIFT LS(NUMBER_5)  &kp Z          &kp X                  &kp C                   &kp V               &kp B                &kp N        &kp M        &kp COMMA           &kp DOT                 &kp FSLH            &mt_middle RIGHT_SHIFT INT_MUHENKAN
+&kp LS(NUMBER_7)                    &kp SEMICOLON  &kp SINGLE_QUOTE       &lt_middle 9 LS(GRAVE)  &lt 8 LEFT_BRACKET  &lt 7 RIGHT_BRACKET  &lt 5 SPACE  &lt 6 ENTER  &kp TAB             &kp LEFT_GUI
             >;
 
             sensor-bindings =
@@ -637,11 +637,11 @@
 
         NUM {
             bindings = <
-&trans  &kp LS(SINGLE_QUOTE)
-&trans  &trans                &trans  &trans  &trans  &trans  &kp ESCAPE  &kp N7     &kp N8                &kp N9                 &kp EQUAL  &kp LS(SEMICOLON)
-&trans  &trans                &trans  &trans  &trans  &trans  &kp TAB     &kp N4     &kp N5                &kp N6                 &kp MINUS  &mt_middle RIGHT_SHIFT LS(EQUAL)
-&trans  &trans                &trans  &trans  &trans  &trans  &kp N0      &kp N1     &kp N2                &kp N3                 &kp FSLH   &mt_middle RIGHT_SHIFT LS(N8)
-&trans  &trans                &trans  &trans  &trans  &trans  &trans      &kp ENTER  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&trans     &kp EQUAL
+&trans     &trans             &trans         &trans            &trans            &trans        &kp ESCAPE  &kp N7     &mt_middle RCTRL NUMBER_8  &mt_middle RIGHT_ALT NUMBER_9  &kp LS(SEMICOLON)  &kp LS(SINGLE_QUOTE)
+&kp GRAVE  &kp LS(BACKSLASH)  &kp BACKSLASH  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp NUMBER_6  &kp TAB     &kp N4     &kp N5                     &kp N6                         &kp MINUS          &mt_middle RIGHT_SHIFT LS(EQUAL)
+&trans     &trans             &trans         &trans            &trans            &trans        &kp N0      &kp N1     &kp N2                     &kp N3                         &kp FSLH           &mt_middle RIGHT_SHIFT LS(N8)
+&trans     &trans             &trans         &trans            &trans            &trans        &trans      &kp ENTER  &kp LEFT_PARENTHESIS       &kp RIGHT_PARENTHESIS
             >;
 
             sensor-bindings = <
