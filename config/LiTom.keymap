@@ -224,6 +224,26 @@
             tapping-term-ms = <200>;
             bindings = <&mo>, <&to0_rbracket>;
         };
+
+        mt_to0_exclamation: mt_to0_exclamation {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MT_TO0_EXCLAMATION";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <400>;
+            flavor = "tap-preferred";    // 迷った時はタップを優先（誤爆防止）
+            bindings = <&kp>, <&to0_exclamation>;
+        };
+
+        mt_to0_at: mt_to0_at {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MT_TO0_AT";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <400>;
+            flavor = "tap-preferred";    // 迷った時はタップを優先（誤爆防止）
+            bindings = <&kp>, <&to0_at>;
+        };
     };
 
     macros {
@@ -557,6 +577,36 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to 0 &kp LEFT_GUI>;
+        };
+
+        to0_gui: to0_exclamation {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp LS(ONE)>;
+        };
+
+        to0_gui: to0_at {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp LS(TWO)>;
+        };
+
+        to0_gui: to0_percent {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp LS(FIVE)>;
+        };
+
+        to0_gui: to0_and {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp LS(SEVEN)>;
+        };
+
+        to0_gui: to0_tilde {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp LS(GRAVE)>;
         };
     };
 
