@@ -244,6 +244,16 @@
             flavor = "tap-preferred";    // 迷った時はタップを優先（誤爆防止）
             bindings = <&kp>, <&to0_at>;
         };
+
+        mt_to0_percent: mt_to0_percent {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MT_TO0_PERCENT";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <400>;
+            flavor = "tap-preferred";    // 迷った時はタップを優先（誤爆防止）
+            bindings = <&kp>, <&to0_percent>;
+        };
     };
 
     macros {
