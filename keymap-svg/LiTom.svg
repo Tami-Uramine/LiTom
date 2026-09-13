@@ -247,7 +247,7 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-2 " transform="translate(30 148) rotate(0 0 -84)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">to0_tab</text>
+<text class="tap" x="42" y="42">to0_exclamation</text>
 </g>
 <g class="key keypos-3 " transform="translate(114 148) rotate(0 -84 -84)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -298,7 +298,7 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <g class="key keypos-14 " transform="translate(30 232) rotate(0 0 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="36">LEFT_SHIFT 0</text>
-<text class="hold" x="42" y="53">mt_to0_henkan</text>
+<text class="hold" x="42" y="53">mt_to0_at</text>
 </g>
 <g class="key keypos-15 " transform="translate(114 232) rotate(0 -84 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -352,7 +352,7 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <g class="key keypos-26 " transform="translate(30 316) rotate(0 0 -252)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="36">LEFT_SHIFT 0</text>
-<text class="hold" x="42" y="53">mt_to0_muhenkan</text>
+<text class="hold" x="42" y="53">mt_to0_percent</text>
 </g>
 <g class="key keypos-27 " transform="translate(114 316) rotate(0 -84 -252)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -401,7 +401,7 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-38 " transform="translate(30 400) rotate(0 0 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">to0_bslash</text>
+<text class="tap" x="42" y="42">to0_and</text>
 </g>
 <g class="key keypos-39 " transform="translate(114 400) rotate(0 -84 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -413,8 +413,7 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-41 " transform="translate(282 400) rotate(0 -252 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="36">9 0</text>
-<text class="hold" x="42" y="53">lt_to0_grave</text>
+<text class="tap" x="42" y="42">to0_tilde</text>
 </g>
 <g class="key keypos-42 " transform="translate(366 400) rotate(0 -336 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
