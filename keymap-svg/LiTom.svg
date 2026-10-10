@@ -35,7 +35,7 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-2 " transform="translate(30 148) rotate(0 0 -84)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">LS(NUMBER_1)</text>
+<text class="tap" x="42" y="42">TAB</text>
 </g>
 <g class="key keypos-3 " transform="translate(114 148) rotate(0 -84 -84)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
