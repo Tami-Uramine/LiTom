@@ -697,11 +697,11 @@
 
         NUM {
             bindings = <
-&trans     &trans
-&trans     &trans             &trans         &trans            &trans            &trans        &kp ESCAPE  &kp N7     &mt_middle RCTRL NUMBER_8  &mt_middle RIGHT_ALT NUMBER_9  &kp LS(SEMICOLON)  &kp LS(SINGLE_QUOTE)
-&kp GRAVE  &kp LS(BACKSLASH)  &kp BACKSLASH  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp NUMBER_6  &kp TAB     &kp N4     &kp N5                     &kp N6                         &kp MINUS          &mt_middle RIGHT_SHIFT LS(EQUAL)
-&trans     &trans             &trans         &trans            &trans            &trans        &kp N0      &kp N1     &kp N2                     &kp N3                         &kp FSLH           &mt_middle RIGHT_SHIFT LS(N8)
-&trans     &trans             &trans         &trans            &trans            &trans        &trans      &kp ENTER  &kp LEFT_PARENTHESIS       &kp RIGHT_PARENTHESIS
+&trans     &kp LS(SEMICOLON)
+&trans     &trans             &trans         &trans            &trans            &trans        &kp ESCAPE  &kp N7     &kp N8     &kp N9      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp GRAVE  &kp LS(BACKSLASH)  &kp BACKSLASH  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp NUMBER_6  &kp TAB     &kp N4     &kp N5     &kp N6      &kp MINUS             &kp LS(EQUAL)
+&trans     &trans             &trans         &trans            &trans            &trans        &kp N0      &kp N1     &kp N2     &kp N3      &kp FSLH              &kp LS(N8)
+&trans     &trans             &trans         &trans            &trans            &trans        &trans      &kp ENTER  &kp COMMA  &kp PERIOD
             >;
 
             sensor-bindings = <
