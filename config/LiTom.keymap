@@ -628,7 +628,7 @@
 &kp ESCAPE                   &kp DELETE
 &kp LS(NUMBER_1)             &kp Q          &mt LEFT_ALT W    &mt LCTRL E      &kp R               &kp T                &kp Y        &kp U        &mt RCTRL I  &mt RIGHT_ALT O  &kp P        &kp BSPC
 &mt LSHIFT LS(NUMBER_2)      &kp A          &kp S             &kp D            &kp F               &kp G                &kp H        &kp J        &lt 2 K      &lt 3 L          &lt 4 MINUS  &mt RIGHT_SHIFT INT_HENKAN
-&mt LEFT_SHIFT LS(NUMBER_5)  &kp Z          &kp X             &kp C            &kp V               &kp B                &kp N        &kp M        &kp COMMA    &kp DOT          &kp FSLH     &mt RIGHT_SHIFT INT_MUHENKAN
+&mt LEFT_SHIFT LS(NUMBER_5)  &kp Z          &kp X             &kp C            &kp V               &kp B                &kp N        &kp M        &mkp LCLK    &mkp MCLK        &mkp RCLK    &mt RCTRL INT_MUHENKAN
 &kp LS(NUMBER_7)             &kp SEMICOLON  &kp SINGLE_QUOTE  &lt 9 LS(GRAVE)  &lt 8 LEFT_BRACKET  &lt 7 RIGHT_BRACKET  &lt 5 SPACE  &lt 6 ENTER  &kp TAB      &kp LEFT_GUI
             >;
 
@@ -697,7 +697,7 @@
 
         NUM {
             bindings = <
-&trans     &kp EQUAL
+&trans     &trans
 &trans     &trans             &trans         &trans            &trans            &trans        &kp ESCAPE  &kp N7     &mt_middle RCTRL NUMBER_8  &mt_middle RIGHT_ALT NUMBER_9  &kp LS(SEMICOLON)  &kp LS(SINGLE_QUOTE)
 &kp GRAVE  &kp LS(BACKSLASH)  &kp BACKSLASH  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp NUMBER_6  &kp TAB     &kp N4     &kp N5                     &kp N6                         &kp MINUS          &mt_middle RIGHT_SHIFT LS(EQUAL)
 &trans     &trans             &trans         &trans            &trans            &trans        &kp N0      &kp N1     &kp N2                     &kp N3                         &kp FSLH           &mt_middle RIGHT_SHIFT LS(N8)
