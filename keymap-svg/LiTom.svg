@@ -1043,9 +1043,9 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="42">TRANS</text>
 </g>
-<g class="key keypos-1 transparent" transform="translate(1038 64) rotate(0 -1008 0)">
+<g class="key keypos-1 " transform="translate(1038 64) rotate(0 -1008 0)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">TRANS</text>
+<text class="tap" x="42" y="42">LS(SEMICOLON)</text>
 </g>
 <g class="key keypos-2 transparent" transform="translate(30 148) rotate(0 0 -84)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -1081,21 +1081,19 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-10 " transform="translate(786 148) rotate(0 -756 -84)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="36">RCTRL NUMBER_8</text>
-<text class="hold" x="42" y="53">mt_middle</text>
+<text class="tap" x="42" y="42">8</text>
 </g>
 <g class="key keypos-11 " transform="translate(870 148) rotate(0 -840 -84)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="36">RIGHT_ALT NUMBER_9</text>
-<text class="hold" x="42" y="53">mt_middle</text>
+<text class="tap" x="42" y="42">9</text>
 </g>
 <g class="key keypos-12 " transform="translate(954 148) rotate(0 -924 -84)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">LS(SEMICOLON)</text>
+<text class="tap" x="42" y="42">LEFT_PARENTHESIS</text>
 </g>
 <g class="key keypos-13 " transform="translate(1038 148) rotate(0 -1008 -84)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">LS(SINGLE_QUOTE)</text>
+<text class="tap" x="42" y="42">RIGHT_PARENTHESIS</text>
 </g>
 <g class="key keypos-14 " transform="translate(30 232) rotate(0 0 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -1143,8 +1141,7 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-25 " transform="translate(1038 232) rotate(0 -1008 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="36">RIGHT_SHIFT LS(EQUAL)</text>
-<text class="hold" x="42" y="53">mt_middle</text>
+<text class="tap" x="42" y="42">LS(EQUAL)</text>
 </g>
 <g class="key keypos-26 transparent" transform="translate(30 316) rotate(0 0 -252)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -1192,8 +1189,7 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-37 " transform="translate(1038 316) rotate(0 -1008 -252)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="36">RIGHT_SHIFT LS(N8)</text>
-<text class="hold" x="42" y="53">mt_middle</text>
+<text class="tap" x="42" y="42">LS(N8)</text>
 </g>
 <g class="key keypos-38 transparent" transform="translate(30 400) rotate(0 0 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -1229,11 +1225,11 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-46 " transform="translate(954 400) rotate(0 -924 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">LEFT_PARENTHESIS</text>
+<text class="tap" x="42" y="42">,</text>
 </g>
 <g class="key keypos-47 " transform="translate(1038 400) rotate(0 -1008 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">RIGHT_PARENTHESIS</text>
+<text class="tap" x="42" y="42">PERIOD</text>
 </g>
 </g>
 <g class="layer layer-FUNCTION" transform="translate(0 3336)">
