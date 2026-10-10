@@ -762,5 +762,15 @@
                 &scroll_up_down
             >;
         };
+
+        ALT {
+            bindings = <
+&trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans          &kp UP_ARROW    &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp LS(TAB)     &kp F4          &kp TAB          &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp SPACE  &kp ENTER       &trans          &trans
+            >;
+        };
     };
 };
