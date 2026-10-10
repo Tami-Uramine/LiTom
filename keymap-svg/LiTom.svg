@@ -173,20 +173,23 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-34 " transform="translate(786 316) rotate(0 -756 -252)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">,</text>
+<text class="tap" x="42" y="36">LCLK</text>
+<text class="hold" x="42" y="53">MOUSE</text>
 </g>
 <g class="key keypos-35 " transform="translate(870 316) rotate(0 -840 -252)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">.</text>
+<text class="tap" x="42" y="36">MCLK</text>
+<text class="hold" x="42" y="53">MOUSE</text>
 </g>
 <g class="key keypos-36 " transform="translate(954 316) rotate(0 -924 -252)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">/</text>
+<text class="tap" x="42" y="36">RCLK</text>
+<text class="hold" x="42" y="53">MOUSE</text>
 </g>
 <g class="key keypos-37 " transform="translate(1038 316) rotate(0 -1008 -252)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="36">INT_MUHENKAN</text>
-<text class="hold" x="42" y="53">RIGHT_SHIFT</text>
+<text class="hold" x="42" y="53">RCTRL</text>
 </g>
 <g class="key keypos-38 " transform="translate(30 400) rotate(0 0 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -1042,9 +1045,9 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="42">TRANS</text>
 </g>
-<g class="key keypos-1 " transform="translate(1038 64) rotate(0 -1008 0)">
+<g class="key keypos-1 transparent" transform="translate(1038 64) rotate(0 -1008 0)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">=</text>
+<text class="tap" x="42" y="42">TRANS</text>
 </g>
 <g class="key keypos-2 transparent" transform="translate(30 148) rotate(0 0 -84)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
