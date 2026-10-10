@@ -625,11 +625,11 @@
 
         default_layer {
             bindings = <
-&kp ESCAPE                          &kp DELETE
-&kp LS(NUMBER_1)                    &kp Q          &mt_middle LEFT_ALT W  &mt_middle LCTRL E      &kp R               &kp T                &kp Y        &kp U        &mt_middle RCTRL I  &mt_middle RIGHT_ALT O  &kp P               &kp BSPC
-&mt_middle LSHIFT LS(NUMBER_2)      &kp A          &kp S                  &kp D                   &kp F               &kp G                &kp H        &kp J        &lt_middle 2 K      &lt_middle 3 L          &lt_middle 4 MINUS  &mt_middle RIGHT_SHIFT INT_HENKAN
-&mt_middle LEFT_SHIFT LS(NUMBER_5)  &kp Z          &kp X                  &kp C                   &kp V               &kp B                &kp N        &kp M        &kp COMMA           &kp DOT                 &kp FSLH            &mt_middle RIGHT_SHIFT INT_MUHENKAN
-&kp LS(NUMBER_7)                    &kp SEMICOLON  &kp SINGLE_QUOTE       &lt_middle 9 LS(GRAVE)  &lt 8 LEFT_BRACKET  &lt 7 RIGHT_BRACKET  &lt 5 SPACE  &lt 6 ENTER  &kp TAB             &kp LEFT_GUI
+&kp ESCAPE                   &kp DELETE
+&kp LS(NUMBER_1)             &kp Q          &mt LEFT_ALT W    &mt LCTRL E      &kp R               &kp T                &kp Y        &kp U        &mt RCTRL I  &mt RIGHT_ALT O  &kp P        &kp BSPC
+&mt LSHIFT LS(NUMBER_2)      &kp A          &kp S             &kp D            &kp F               &kp G                &kp H        &kp J        &lt 2 K      &lt 3 L          &lt 4 MINUS  &mt RIGHT_SHIFT INT_HENKAN
+&mt LEFT_SHIFT LS(NUMBER_5)  &kp Z          &kp X             &kp C            &kp V               &kp B                &kp N        &kp M        &kp COMMA    &kp DOT          &kp FSLH     &mt RIGHT_SHIFT INT_MUHENKAN
+&kp LS(NUMBER_7)             &kp SEMICOLON  &kp SINGLE_QUOTE  &lt 9 LS(GRAVE)  &lt 8 LEFT_BRACKET  &lt 7 RIGHT_BRACKET  &lt 5 SPACE  &lt 6 ENTER  &kp TAB      &kp LEFT_GUI
             >;
 
             sensor-bindings =
