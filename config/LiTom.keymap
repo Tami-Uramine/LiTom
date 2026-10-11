@@ -776,10 +776,10 @@
         WINDOWS {
             bindings = <
 &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(TAB)     &kp D           &kp TAB          &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans              &kp LG(UP_ARROW)    &trans               &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LG(E)  &kp LG(I)           &kp LG(D)           &kp LG(TAB)          &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LG(X)  &kp LS(LG(S))       &kp LG(R)           &trans
             >;
         };
     };
