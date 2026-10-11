@@ -64,6 +64,14 @@
             bindings = <&lt_ctrl_on>, <&kp>;
         };
 
+        lt_alt: lt_alt {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <200>;
+            bindings = <&lt_alt_on>, <&kp>;
+        };
+
         lt_slow: layer_tap_slow {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_SLOW";
