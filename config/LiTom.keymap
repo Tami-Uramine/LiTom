@@ -674,7 +674,7 @@
 &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp A   &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &kp X   &kp C   &kp V   &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp H   &kp F   &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp H   &kp F   &kp N0  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &kp Z   &kp Y   &trans  &trans
             >;
         };
