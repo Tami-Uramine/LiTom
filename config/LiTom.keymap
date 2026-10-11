@@ -135,10 +135,10 @@
         default_layer {
             bindings = <
 &kp LS(NUMBER_2)         &kp DELETE
-&kp LS(GRAVE)            &kp Q          &mt LEFT_ALT W    &mt LCTRL E  &kp R        &kp T         &kp Y        &kp U        &kp I       &kp O            &kp P        &kp BSPC
-&mt LSHIFT LS(NUMBER_1)  &kp A          &kp S             &kp D        &kp F        &kp G         &kp H        &kp J        &lt 2 K     &lt 3 L          &lt 4 MINUS  &mt RIGHT_SHIFT INT_HENKAN
-&kp LS(SLASH)            &kp Z          &kp X             &kp C        &kp V        &kp B         &kp N        &kp M        &mkp LCLK   &mkp MCLK        &mkp RCLK    &mt RCTRL INT_MUHENKAN
-&kp LS(NUMBER_7)         &kp SEMICOLON  &kp SINGLE_QUOTE  &kp SLASH    &lt 8 COMMA  &lt 7 PERIOD  &lt 5 SPACE  &lt 6 ENTER  &kp ESCAPE  &lt 11 LEFT_GUI
+&kp LS(GRAVE)            &kp Q          &kp W             &kp E      &kp R      &kp T       &kp Y        &kp U        &kp I       &kp O           &kp P        &kp BSPC
+&mt LSHIFT LS(NUMBER_1)  &kp A          &kp S             &kp D      &kp F      &kp G       &kp H        &kp J        &lt 2 K     &lt 3 L         &lt 4 MINUS  &mt RIGHT_SHIFT INT_HENKAN
+&kp LS(SLASH)            &kp Z          &kp X             &kp C      &kp V      &kp B       &kp N        &kp M        &mkp LCLK   &mkp MCLK       &mkp RCLK    &mt RCTRL INT_MUHENKAN
+&kp LS(NUMBER_7)         &kp SEMICOLON  &kp SINGLE_QUOTE  &kp SLASH  &kp COMMA  &kp PERIOD  &lt 5 SPACE  &lt 6 ENTER  &kp ESCAPE  &lt 8 LEFT_GUI
             >;
 
             sensor-bindings =
@@ -227,42 +227,6 @@
 &trans  &trans        &trans  &trans  &trans  &trans  &kp F6   &kp F7   &kp F8      &kp F9        &kp F10     &bt BT_SEL 2
 &trans  &trans        &trans  &trans  &trans  &trans  &kp F11  &kp F12  &kp LC(S)   &kp LC(P)     &kp LA(F4)  &bt BT_SEL 3
 &trans  &trans        &trans  &trans  &trans  &trans  &trans   &trans   &bt BT_CLR  &bt BT_SEL 4
-            >;
-
-            sensor-bindings = <
-                &arrows_left_right
-                &arrows_up_down
-                &scroll_up_down
-            >;
-        };
-
-        SYMBOL {
-            bindings = <
-&trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(NUMBER_7)     &trans            &trans            &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(NUMBER_4)     &kp LS(NUMBER_5)  &kp LS(NUMBER_6)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(EXCLAMATION)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans               &trans            &trans
-            >;
-        };
-
-        OFFICE {
-            bindings = <
-&trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(L)  &kp LC(E)         &kp LC(R)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(B)  &kp LC(U)         &kp LC(I)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(M)  &kp LC(NUMBER_1)  &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans            &trans
-            >;
-        };
-
-        Bluetooth {
-            bindings = <
-&studio_unlock  &trans
-&trans          &bt BT_SEL 0       &bt BT_SEL 1     &bt BT_SEL 2          &bt BT_SEL 3          &bt BT_SEL 4  &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans        &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans             &trans           &trans                &trans                &trans        &trans  &trans  &trans  &trans  &trans  &trans
-&bt BT_CLR      &trans             &trans           &trans                &trans                &trans        &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <
