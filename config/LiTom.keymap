@@ -767,7 +767,7 @@
             bindings = <
 &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &kp B      &kp U      &kp I      &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans  &trans  &kp LS(ENTER)
+&trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp J      &kp E      &kp L   &kp R   &kp LS(ENTER)
 &trans  &trans  &trans  &trans  &trans  &trans  &kp N      &kp M      &mkp LCLK  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &kp SPACE  &kp ENTER  &trans     &trans
             >;
