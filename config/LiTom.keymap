@@ -727,7 +727,7 @@
             >;
         };
 
-        Symbol {
+        SYMBOL {
             bindings = <
 &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(NUMBER_7)     &trans            &trans            &trans  &trans
@@ -737,7 +737,7 @@
             >;
         };
 
-        Office {
+        OFFICE {
             bindings = <
 &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(L)  &kp LC(E)         &kp LC(R)  &trans  &trans
@@ -765,11 +765,11 @@
 
         ALT {
             bindings = <
-&trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans          &kp UP_ARROW    &trans           &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp LS(TAB)     &kp F4          &kp TAB          &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp SPACE  &kp ENTER       &trans          &trans
+&trans  &kp RC(DELETE)
+&trans  &trans          &trans  &trans  &trans  &trans  &trans     &trans          &kp UP_ARROW    &trans           &trans  &trans
+&trans  &trans          &trans  &trans  &trans  &trans  &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans  &trans          &trans  &trans  &trans  &trans  &trans     &kp LS(TAB)     &mkp LCLK       &kp TAB          &trans  &trans
+&trans  &trans          &trans  &trans  &trans  &trans  &kp SPACE  &kp ENTER       &kp F4          &trans
             >;
         };
 
