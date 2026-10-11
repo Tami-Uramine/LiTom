@@ -768,8 +768,8 @@
 &trans  &kp RC(DELETE)
 &trans  &trans          &trans  &trans  &trans  &trans  &trans     &trans          &kp UP_ARROW    &trans           &trans  &trans
 &trans  &trans          &trans  &trans  &trans  &trans  &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &trans          &trans  &trans  &trans  &trans  &trans     &kp LS(TAB)     &mkp LCLK       &kp TAB          &trans  &trans
-&trans  &trans          &trans  &trans  &trans  &trans  &kp SPACE  &kp ENTER       &kp F4          &trans
+&trans  &trans          &trans  &trans  &trans  &trans  &kp F4     &kp LS(TAB)     &mkp LCLK       &kp TAB          &trans  &trans
+&trans  &trans          &trans  &trans  &trans  &trans  &kp SPACE  &kp ENTER       &trans          &trans
             >;
         };
 
