@@ -158,6 +158,22 @@
                 <&macro_release>,
                 <&kp LALT>;
         };
+
+        parens: parens {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &kp LEFT_PARENTHESIS>
+                  <&macro_tap &kp RIGHT_PARENTHESIS>;
+        };
+
+        bracket: bracket {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &kp LEFT_BRACKET>
+                  <&macro_tap &kp RIGHT_BRACKET>;
+        };
     };
 
     keymap: keymap {
