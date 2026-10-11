@@ -103,12 +103,12 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&mo 2>,
+                <&mo 1>,
                 <&macro_press>,
                 <&kp LCTRL>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&mo 2>,
+                <&mo 1>,
                 <&macro_release>,
                 <&kp LCTRL>;
         };
@@ -118,12 +118,12 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&mo 2>,
+                <&mo 1>,
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&mo 2>,
+                <&mo 1>,
                 <&macro_release>,
                 <&kp LALT>;
         };
@@ -136,31 +136,15 @@
             bindings = <
 &kp LS(NUMBER_2)         &kp DELETE
 &kp LS(GRAVE)            &kp Q          &kp W             &kp E      &kp R      &kp T       &kp Y        &kp U        &kp I       &kp O           &kp P        &kp BSPC
-&mt LSHIFT LS(NUMBER_1)  &kp A          &kp S             &kp D      &kp F      &kp G       &kp H        &kp J        &lt 2 K     &lt_zoom 0 L    &lt 4 MINUS  &mt RIGHT_SHIFT INT_HENKAN
+&mt LSHIFT LS(NUMBER_1)  &kp A          &kp S             &kp D      &kp F      &kp G       &kp H        &kp J        &lt 1 K     &lt_zoom 0 L    &lt 3 MINUS  &mt RIGHT_SHIFT INT_HENKAN
 &kp LS(SLASH)            &kp Z          &kp X             &kp C      &kp V      &kp B       &kp N        &kp M        &mkp LCLK   &mkp MCLK       &mkp RCLK    &mt RCTRL INT_MUHENKAN
-&kp LS(NUMBER_7)         &kp SEMICOLON  &kp SINGLE_QUOTE  &kp SLASH  &kp COMMA  &kp PERIOD  &lt 5 SPACE  &lt 6 ENTER  &kp ESCAPE  &lt 8 LEFT_GUI
+&kp LS(NUMBER_7)         &kp SEMICOLON  &kp SINGLE_QUOTE  &kp SLASH  &kp COMMA  &kp PERIOD  &lt 4 SPACE  &lt 5 ENTER  &kp ESCAPE  &lt 7 LEFT_GUI
             >;
 
             sensor-bindings =
                 <&arrows_left_right>,
                 <&scroll_up_down>,
                 <&scroll_up_down>;
-        };
-
-        MOUSE {
-            bindings = <
-&to0_esc                      &to0_del
-&to0_exclamation              &to0_q          &to0_w      &to0_e      &to0_r                &to0_t                &to0_y             &to0_u             &mt_to0_i RCTRL 0  &mt_to0_o RIGHT_ALT 0  &to0_p             &to0_bspc
-&mt_to0_at LEFT_SHIFT 0       &to0_a          &to0_s      &to0_d      &to0_f                &to0_g                &to0_h             &mkp LCLK          &lt_mouse 2 MCLK   &lt_mouse 3 RCLK       &lt_to0_minus 4 0  &mt_to0_henkan RIGHT_SHIFT 0
-&mt_to0_percent LEFT_SHIFT 0  &to0_z          &to0_x      &to0_c      &to0_v                &to0_b                &to0_n             &to0_m             &to0_comma         &to0_dot               &to0_slash         &mt_to0_muhenkan RIGHT_SHIFT 0
-&to0_and                      &to0_semicolon  &to0_quote  &to0_tilde  &lt_to0_lbracket 8 0  &lt_to0_rbracket 7 0  &lt_to0_space 5 0  &lt_to0_enter 6 0  &to0_tab           &to0_gui
-            >;
-
-            sensor-bindings = <
-                &arrows_left_right
-                &arrows_up_down
-                &scroll_up_down
-            >;
         };
 
         SCROLL {
