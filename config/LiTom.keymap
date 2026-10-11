@@ -714,9 +714,9 @@
         FUNCTION {
             bindings = <
 &trans  &bt BT_SEL 0
-&trans  &trans        &trans  &trans  &trans  &trans  &kp F1   &kp F2   &kp F3      &kp F4        &kp F5         &bt BT_SEL 1
-&trans  &trans        &trans  &trans  &trans  &trans  &kp F6   &kp F7   &kp F8      &kp F9        &kp F10        &bt BT_SEL 2
-&trans  &trans        &trans  &trans  &trans  &trans  &kp F11  &kp F12  &kp LC(S)   &kp LC(P)     &kp LG(LS(S))  &bt BT_SEL 3
+&trans  &trans        &trans  &trans  &trans  &trans  &kp F1   &kp F2   &kp F3      &kp F4        &kp F5      &bt BT_SEL 1
+&trans  &trans        &trans  &trans  &trans  &trans  &kp F6   &kp F7   &kp F8      &kp F9        &kp F10     &bt BT_SEL 2
+&trans  &trans        &trans  &trans  &trans  &trans  &kp F11  &kp F12  &kp LC(S)   &kp LC(P)     &kp LA(F4)  &bt BT_SEL 3
 &trans  &trans        &trans  &trans  &trans  &trans  &trans   &trans   &bt BT_CLR  &bt BT_SEL 4
             >;
 
@@ -788,7 +788,7 @@
 &trans  &kp RC(DELETE)
 &trans  &trans          &trans  &trans  &trans  &trans  &trans     &trans          &kp UP_ARROW    &trans           &trans  &trans
 &trans  &trans          &trans  &trans  &trans  &trans  &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &trans          &trans  &trans  &trans  &trans  &kp F4     &kp LS(TAB)     &mkp LCLK       &kp TAB          &trans  &trans
+&trans  &trans          &trans  &trans  &trans  &trans  &trans     &kp LS(TAB)     &mkp LCLK       &kp TAB          &trans  &trans
 &trans  &trans          &trans  &trans  &trans  &trans  &kp SPACE  &kp ENTER       &trans          &trans
             >;
         };
