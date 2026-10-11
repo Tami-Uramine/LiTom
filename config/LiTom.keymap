@@ -657,10 +657,10 @@
         SCROLL {
             bindings = <
 &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans         &trans  &trans     &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans         &trans  &kp RCTRL  &kp LC(N0)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans         &trans  &trans     &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp PAGE_UP  &kp PAGE_DOWN  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans       &kp LC(UP_ARROW)    &trans  &trans               &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans       &kp LC(LEFT_ARROW)  &trans  &kp LC(RIGHT_ARROW)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans       &kp LC(DOWN_ARROW)  &trans  &trans               &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp PAGE_UP  &kp PAGE_DOWN       &trans  &trans
             >;
 
             sensor-bindings =
@@ -669,13 +669,13 @@
                 <&scroll_up_down>;
         };
 
-        COMMAND {
+        ZOOM {
             bindings = <
 &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LC(H)  &kp LC(F)  &kp LC(A)  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LC(Z)  &kp LC(Y)  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp A   &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp X   &kp C   &kp V   &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp H   &kp F   &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp Z   &kp Y   &trans  &trans
             >;
         };
 
