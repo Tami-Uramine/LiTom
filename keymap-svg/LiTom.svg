@@ -485,9 +485,9 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="42">TRANS</text>
 </g>
-<g class="key keypos-9 transparent" transform="translate(702 148) rotate(0 -672 -84)">
+<g class="key keypos-9 " transform="translate(702 148) rotate(0 -672 -84)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">TRANS</text>
+<text class="tap" x="42" y="42">LC(UP_ARROW)</text>
 </g>
 <g class="key keypos-10 transparent" transform="translate(786 148) rotate(0 -756 -84)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -533,9 +533,9 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="42">TRANS</text>
 </g>
-<g class="key keypos-21 transparent" transform="translate(702 232) rotate(0 -672 -168)">
+<g class="key keypos-21 " transform="translate(702 232) rotate(0 -672 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">TRANS</text>
+<text class="tap" x="42" y="42">LC(LEFT_ARROW)</text>
 </g>
 <g class="key keypos-22 transparent" transform="translate(786 232) rotate(0 -756 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -543,11 +543,11 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-23 " transform="translate(870 232) rotate(0 -840 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">RCTRL</text>
+<text class="tap" x="42" y="42">LC(RIGHT_ARROW)</text>
 </g>
-<g class="key keypos-24 " transform="translate(954 232) rotate(0 -924 -168)">
+<g class="key keypos-24 transparent" transform="translate(954 232) rotate(0 -924 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">LC(N0)</text>
+<text class="tap" x="42" y="42">TRANS</text>
 </g>
 <g class="key keypos-25 transparent" transform="translate(1038 232) rotate(0 -1008 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -581,9 +581,9 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="42">TRANS</text>
 </g>
-<g class="key keypos-33 transparent" transform="translate(702 316) rotate(0 -672 -252)">
+<g class="key keypos-33 " transform="translate(702 316) rotate(0 -672 -252)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">TRANS</text>
+<text class="tap" x="42" y="42">LC(DOWN_ARROW)</text>
 </g>
 <g class="key keypos-34 transparent" transform="translate(786 316) rotate(0 -756 -252)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -642,8 +642,8 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <text class="tap" x="42" y="42">TRANS</text>
 </g>
 </g>
-<g class="layer layer-COMMAND" transform="translate(0 1668)">
-<text class="title" x="30" y="10">COMMAND</text>
+<g class="layer layer-ZOOM" transform="translate(0 1668)">
+<text class="title" x="30" y="10">ZOOM</text>
 <text class="subtitle" x="30" y="28">48 bindings</text>
 <g class="key keypos-0 transparent" transform="translate(30 64) rotate(0 0 0)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -677,17 +677,17 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="42">TRANS</text>
 </g>
-<g class="key keypos-8 " transform="translate(618 148) rotate(0 -588 -84)">
+<g class="key keypos-8 transparent" transform="translate(618 148) rotate(0 -588 -84)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">LC(H)</text>
+<text class="tap" x="42" y="42">TRANS</text>
 </g>
-<g class="key keypos-9 " transform="translate(702 148) rotate(0 -672 -84)">
+<g class="key keypos-9 transparent" transform="translate(702 148) rotate(0 -672 -84)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">LC(F)</text>
+<text class="tap" x="42" y="42">TRANS</text>
 </g>
 <g class="key keypos-10 " transform="translate(786 148) rotate(0 -756 -84)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">LC(A)</text>
+<text class="tap" x="42" y="42">A</text>
 </g>
 <g class="key keypos-11 transparent" transform="translate(870 148) rotate(0 -840 -84)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -727,15 +727,15 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-20 " transform="translate(618 232) rotate(0 -588 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">LC(X)</text>
+<text class="tap" x="42" y="42">X</text>
 </g>
 <g class="key keypos-21 " transform="translate(702 232) rotate(0 -672 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">LC(C)</text>
+<text class="tap" x="42" y="42">C</text>
 </g>
 <g class="key keypos-22 " transform="translate(786 232) rotate(0 -756 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">LC(V)</text>
+<text class="tap" x="42" y="42">V</text>
 </g>
 <g class="key keypos-23 transparent" transform="translate(870 232) rotate(0 -840 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -777,13 +777,13 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="42">TRANS</text>
 </g>
-<g class="key keypos-33 transparent" transform="translate(702 316) rotate(0 -672 -252)">
+<g class="key keypos-33 " transform="translate(702 316) rotate(0 -672 -252)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">TRANS</text>
+<text class="tap" x="42" y="42">H</text>
 </g>
-<g class="key keypos-34 transparent" transform="translate(786 316) rotate(0 -756 -252)">
+<g class="key keypos-34 " transform="translate(786 316) rotate(0 -756 -252)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">TRANS</text>
+<text class="tap" x="42" y="42">F</text>
 </g>
 <g class="key keypos-35 transparent" transform="translate(870 316) rotate(0 -840 -252)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -823,11 +823,11 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-44 " transform="translate(618 400) rotate(0 -588 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">LC(Z)</text>
+<text class="tap" x="42" y="42">Z</text>
 </g>
 <g class="key keypos-45 " transform="translate(702 400) rotate(0 -672 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">LC(Y)</text>
+<text class="tap" x="42" y="42">Y</text>
 </g>
 <g class="key keypos-46 transparent" transform="translate(954 400) rotate(0 -924 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
