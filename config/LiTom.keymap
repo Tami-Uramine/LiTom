@@ -672,9 +672,9 @@
         COMMAND {
             bindings = <
 &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LC(H)            &kp LC(F)           &kp LC(A)  &trans  &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LC(X)            &kp LC(C)           &kp LC(V)  &trans  &kp LG(X)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LA(RIGHT_ARROW)  &kp LA(LEFT_ARROW)  &kp LG(V)  &trans  &kp LA(G)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LC(H)            &kp LC(F)           &kp LC(A)  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LC(X)            &kp LC(C)           &kp LC(V)  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LA(RIGHT_ARROW)  &kp LA(LEFT_ARROW)  &kp LG(V)  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(Y)            &kp LC(Z)           &trans     &trans
             >;
         };
@@ -776,10 +776,20 @@
         WINDOWS {
             bindings = <
 &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans              &kp LG(UP_ARROW)    &trans               &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LG(E)  &kp LG(I)           &kp LG(D)           &kp LG(TAB)          &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LG(X)  &kp LS(LG(S))       &kp LG(R)           &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans              &kp LG(UP_ARROW)    &trans               &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans         &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LG(E)      &kp LG(I)           &kp LG(D)           &kp LG(TAB)          &kp LG(R)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LG(LS(S))  &kp LG(V)           &kp LG(X)           &trans
+            >;
+        };
+
+        CONTROL {
+            bindings = <
+&trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
