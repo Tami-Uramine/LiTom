@@ -626,10 +626,10 @@
         default_layer {
             bindings = <
 &kp ESCAPE                   &kp DELETE
-&kp TAB                      &kp Q          &mt LEFT_ALT W    &mt LCTRL E  &kp R        &kp T         &kp Y        &kp U        &kp I       &kp O         &kp P        &kp BSPC
-&mt LSHIFT LS(NUMBER_2)      &kp A          &kp S             &kp D        &kp F        &kp G         &kp H        &kp J        &lt 2 K     &lt 3 L       &lt 4 MINUS  &mt RIGHT_SHIFT INT_HENKAN
-&mt LEFT_SHIFT LS(NUMBER_5)  &kp Z          &kp X             &kp C        &kp V        &kp B         &kp N        &kp M        &mkp LCLK   &mkp MCLK     &mkp RCLK    &mt RCTRL INT_MUHENKAN
-&kp LS(NUMBER_7)             &kp SEMICOLON  &kp SINGLE_QUOTE  &lt 9 SLASH  &lt 8 COMMA  &lt 7 PERIOD  &lt 5 SPACE  &lt 6 ENTER  &kp ESCAPE  &kp LEFT_GUI
+&kp TAB                      &kp Q          &mt LEFT_ALT W    &mt LCTRL E  &kp R        &kp T         &kp Y        &kp U        &kp I       &kp O            &kp P        &kp BSPC
+&mt LSHIFT LS(NUMBER_2)      &kp A          &kp S             &kp D        &kp F        &kp G         &kp H        &kp J        &lt 2 K     &lt 3 L          &lt 4 MINUS  &mt RIGHT_SHIFT INT_HENKAN
+&mt LEFT_SHIFT LS(NUMBER_5)  &kp Z          &kp X             &kp C        &kp V        &kp B         &kp N        &kp M        &mkp LCLK   &mkp MCLK        &mkp RCLK    &mt RCTRL INT_MUHENKAN
+&kp LS(NUMBER_7)             &kp SEMICOLON  &kp SINGLE_QUOTE  &lt 9 SLASH  &lt 8 COMMA  &lt 7 PERIOD  &lt 5 SPACE  &lt 6 ENTER  &kp ESCAPE  &lt 11 LEFT_GUI
             >;
 
             sensor-bindings =
