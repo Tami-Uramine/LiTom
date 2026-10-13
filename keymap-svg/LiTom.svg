@@ -1459,13 +1459,13 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="42">TRANS</text>
 </g>
-<g class="key keypos-10 " transform="translate(786 148) rotate(0 -756 -84)">
-<rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">LG(UP_ARROW)</text>
-</g>
-<g class="key keypos-11 transparent" transform="translate(870 148) rotate(0 -840 -84)">
+<g class="key keypos-10 transparent" transform="translate(786 148) rotate(0 -756 -84)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="42">TRANS</text>
+</g>
+<g class="key keypos-11 " transform="translate(870 148) rotate(0 -840 -84)">
+<rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
+<text class="tap" x="42" y="42">LG(UP_ARROW)</text>
 </g>
 <g class="key keypos-12 transparent" transform="translate(954 148) rotate(0 -924 -84)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -1503,21 +1503,21 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="42">TRANS</text>
 </g>
-<g class="key keypos-21 " transform="translate(702 232) rotate(0 -672 -168)">
+<g class="key keypos-21 transparent" transform="translate(702 232) rotate(0 -672 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">LG(LEFT_ARROW)</text>
+<text class="tap" x="42" y="42">TRANS</text>
 </g>
 <g class="key keypos-22 " transform="translate(786 232) rotate(0 -756 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">LG(DOWN_ARROW)</text>
+<text class="tap" x="42" y="42">LG(LEFT_ARROW)</text>
 </g>
 <g class="key keypos-23 " transform="translate(870 232) rotate(0 -840 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">LG(RIGHT_ARROW)</text>
+<text class="tap" x="42" y="42">LG(DOWN_ARROW)</text>
 </g>
-<g class="key keypos-24 transparent" transform="translate(954 232) rotate(0 -924 -168)">
+<g class="key keypos-24 " transform="translate(954 232) rotate(0 -924 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">TRANS</text>
+<text class="tap" x="42" y="42">LG(RIGHT_ARROW)</text>
 </g>
 <g class="key keypos-25 transparent" transform="translate(1038 232) rotate(0 -1008 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
