@@ -173,13 +173,13 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-35 " transform="translate(870 316) rotate(0 -840 -252)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="36">MCLK</text>
-<text class="hold" x="42" y="53">MOUSE</text>
+<text class="tap" x="42" y="36">LCTRL MCLK</text>
+<text class="hold" x="42" y="53">mt_mouse</text>
 </g>
 <g class="key keypos-36 " transform="translate(954 316) rotate(0 -924 -252)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="36">RCLK</text>
-<text class="hold" x="42" y="53">MOUSE</text>
+<text class="tap" x="42" y="36">LEFT_SHIFT RCLK</text>
+<text class="hold" x="42" y="53">mt_mouse</text>
 </g>
 <g class="key keypos-37 " transform="translate(1038 316) rotate(0 -1008 -252)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
