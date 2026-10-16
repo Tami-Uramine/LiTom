@@ -183,8 +183,8 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-37 " transform="translate(1038 316) rotate(0 -1008 -252)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="36">INT_MUHENKAN</text>
-<text class="hold" x="42" y="53">RCTRL</text>
+<text class="tap" x="42" y="36">0 INT_MUHENKAN</text>
+<text class="hold" x="42" y="53">lt_ctrl</text>
 </g>
 <g class="key keypos-38 " transform="translate(30 400) rotate(0 0 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
