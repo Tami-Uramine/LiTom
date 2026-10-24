@@ -52,11 +52,27 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "hold-preferred";
+            tapping-term-ms = <200>;
+            bindings = <&kp>, <&mkp>;
+        };
+
+        mt_mouse_middle: mt_mouse_middle {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "hold-preferred";
             tapping-term-ms = <400>;
             bindings = <&kp>, <&mkp>;
         };
 
         lt_zoom: lt_zoom {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <200>;
+            bindings = <&lt_zoom_on>, <&kp>;
+        };
+
+        lt_zoom_middle: lt_zoom_middle {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
@@ -68,11 +84,27 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
+            tapping-term-ms = <200>;
+            bindings = <&lt_ctrl_on>, <&kp>;
+        };
+
+        lt_ctrl_middle: lt_ctrl_middle {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "balanced";
             tapping-term-ms = <400>;
             bindings = <&lt_ctrl_on>, <&kp>;
         };
 
         lt_alt: lt_alt {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <200>;
+            bindings = <&lt_alt_on>, <&kp>;
+        };
+
+        lt_alt_middle: lt_alt_middle {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
