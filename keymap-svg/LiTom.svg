@@ -83,8 +83,8 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-14 " transform="translate(30 232) rotate(0 0 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="36">LSHIFT LS(NUMBER_1)</text>
-<text class="hold" x="42" y="53">mt_middle</text>
+<text class="tap" x="42" y="36">LS(NUMBER_1)</text>
+<text class="hold" x="42" y="53">LSHIFT</text>
 </g>
 <g class="key keypos-15 " transform="translate(114 232) rotate(0 -84 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -116,8 +116,8 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-22 " transform="translate(786 232) rotate(0 -756 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="36">1 K</text>
-<text class="hold" x="42" y="53">lt_middle</text>
+<text class="tap" x="42" y="36">K</text>
+<text class="hold" x="42" y="53">LT 1</text>
 </g>
 <g class="key keypos-23 " transform="translate(870 232) rotate(0 -840 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -131,13 +131,13 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-25 " transform="translate(1038 232) rotate(0 -1008 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="36">RIGHT_SHIFT INT_HENKAN</text>
-<text class="hold" x="42" y="53">mt_middle</text>
+<text class="tap" x="42" y="36">INT_HENKAN</text>
+<text class="hold" x="42" y="53">RIGHT_SHIFT</text>
 </g>
 <g class="key keypos-26 " transform="translate(30 316) rotate(0 0 -252)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="36">LCTRL LS(SLASH)</text>
-<text class="hold" x="42" y="53">mt_middle</text>
+<text class="tap" x="42" y="36">LS(SLASH)</text>
+<text class="hold" x="42" y="53">LCTRL</text>
 </g>
 <g class="key keypos-27 " transform="translate(114 316) rotate(0 -84 -252)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -184,8 +184,8 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-37 " transform="translate(1038 316) rotate(0 -1008 -252)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="36">6 INT_MUHENKAN</text>
-<text class="hold" x="42" y="53">lt_middle</text>
+<text class="tap" x="42" y="36">INT_MUHENKAN</text>
+<text class="hold" x="42" y="53">LT 6</text>
 </g>
 <g class="key keypos-38 " transform="translate(30 400) rotate(0 0 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -205,13 +205,13 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-42 " transform="translate(366 400) rotate(0 -336 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="36">5 ,</text>
-<text class="hold" x="42" y="53">lt_middle</text>
+<text class="tap" x="42" y="36">,</text>
+<text class="hold" x="42" y="53">LT 5</text>
 </g>
 <g class="key keypos-43 " transform="translate(450 400) rotate(0 -420 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="36">4 PERIOD</text>
-<text class="hold" x="42" y="53">lt_middle</text>
+<text class="tap" x="42" y="36">PERIOD</text>
+<text class="hold" x="42" y="53">LT 4</text>
 </g>
 <g class="key keypos-44 " transform="translate(618 400) rotate(0 -588 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -230,8 +230,8 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-47 " transform="translate(1038 400) rotate(0 -1008 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="36">7 LEFT_GUI</text>
-<text class="hold" x="42" y="53">lt_middle</text>
+<text class="tap" x="42" y="36">LEFT_GUI</text>
+<text class="hold" x="42" y="53">LT 7</text>
 </g>
 </g>
 <g class="layer layer-SCROLL" transform="translate(0 556)">
