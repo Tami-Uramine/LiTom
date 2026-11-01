@@ -84,7 +84,7 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <g class="key keypos-14 " transform="translate(30 232) rotate(0 0 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="36">LS(NUMBER_1)</text>
-<text class="hold" x="42" y="53">LSHIFT</text>
+<text class="hold" x="42" y="53">(LSHIFT)</text>
 </g>
 <g class="key keypos-15 " transform="translate(114 232) rotate(0 -84 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -116,13 +116,13 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-22 " transform="translate(786 232) rotate(0 -756 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="36">K</text>
-<text class="hold" x="42" y="53">LT 1</text>
+<text class="tap" x="42" y="36">1 K</text>
+<text class="hold" x="42" y="53">lt_middle</text>
 </g>
 <g class="key keypos-23 " transform="translate(870 232) rotate(0 -840 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="36">0 L</text>
-<text class="hold" x="42" y="53">lt_zoom</text>
+<text class="hold" x="42" y="53">lt_zoom_middle</text>
 </g>
 <g class="key keypos-24 " transform="translate(954 232) rotate(0 -924 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -137,7 +137,7 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <g class="key keypos-26 " transform="translate(30 316) rotate(0 0 -252)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="36">LS(SLASH)</text>
-<text class="hold" x="42" y="53">LCTRL</text>
+<text class="hold" x="42" y="53">(LCTRL)</text>
 </g>
 <g class="key keypos-27 " transform="translate(114 316) rotate(0 -84 -252)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
